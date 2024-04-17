@@ -46,11 +46,11 @@ Example::
 nick1 = "Test Power" -- nick1 with names "Test" and "Power"
 nick2 = "Power" -- nick2 with name "Power"
 
-filter1 = "Power" -- nick filter maches nick1 and nick2
-filter2 = "Test" -- nick filter maches only nick1
-filter3 = "Test Power" -- nick filter maches only nick1
-filter4 = "Power Nice" -- nick filter maches noone
-filter5 = "" -- nick filter maches every component (also components with no nick)
+filter1 = "Power" -- nick filter matches nick1 and nick2
+filter2 = "Test" -- nick filter matches only nick1
+filter3 = "Test Power" -- nick filter matches only nick1
+filter4 = "Power Nice" -- nick filter matches neither nick1 nor nick2
+filter5 = "" -- nick filter matches every component (also components with no nick)
 ----
 
 == Computers
