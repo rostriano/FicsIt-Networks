@@ -76,7 +76,7 @@ Parameters::
 
 |timeout
 |number
-|The amount of time needs to pass until pull unblocks when no signal got pushed.
+|The number of seconds that need to pass until pull unblocks when no signal got pushed.
  If not set, the function will block indefinitely until a signal gets pushed.
  If set to `0` (int), will not yield the tick and directly return with
  the signal data or nil if no signal was in the queue.
